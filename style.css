@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background:url("images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 6px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+nav ul li a:hover, a.active{
+    background-color: #3352F2;
+    border-radius: 5px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+}
+.booking-form{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 5px;
+    float: left;
+}
+.booking-form h3{
+    margin: 10px 0px;
+}
+.booking-form  .input-group{
+    margin: 10px 0;
+}
+.f-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp-width{
+    min-width: 300px;
+}
+.plus-minus-btn{
+    display: flex;
+}
+.plus-minus-btn p{
+    font-size: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.plus-minus-btn p:last-child{
+    color:red;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 28px 0 0 25px;
+}
+ 
+.booking-form  .calculations{
+    margin: 10px 0;
+}
+.booking-form  .calculations p{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.booking-form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.booking-form .inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.booking-content{
+    color: #fff;
+    width: 80%;
+}
+.booking-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.btn-style{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color:  #3352F2;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* model */
+.model{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    margin-top: -250px;
+    left: 50%;
+    margin-left: -250px;
+    background: rgb(90, 51, 6);
+}
+
+.model h4{
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+
+#model .right{
+    margin-left: 20px;
+}
+#model .equal{
+    padding: 0 10px;
+}
+
+.model-box1 .calculate{
+    margin-left: 50px;
+}
+.model-box2 .calculate{
+    margin-left: 15px;
+}
+
+
+.finalCalculation{
+    padding-left: 120px;
+}
+.finalCalculation div:nth-child(1) .title{
+    margin-right: 40px;
+}
+.finalCalculation div:nth-child(2) .title{
+    margin-right: 133px;
+}
+.finalCalculation div:nth-child(3) .title{
+    margin-right: 123px;
+}
+
+#model .footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(7, 10, 7);
+}
+
+.cross{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: green;
+}
